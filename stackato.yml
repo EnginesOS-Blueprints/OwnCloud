@@ -2,6 +2,9 @@ name: OwnCloud-test
 memory: 128
 framework:
  type: php
+services:
+ owncloud-test: mysql
+ owncloud-test: filesystem
 
 hooks:
  pre-staging:
