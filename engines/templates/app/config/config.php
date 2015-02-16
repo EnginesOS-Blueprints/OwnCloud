@@ -30,11 +30,11 @@ $CONFIG = array(
 'session_lifetime' => 60 * 60 * 24,
 'session_keepalive' => true,
 'skeletondirectory' => '',
-'mail_domain' => 'example.com',
+'mail_domain' => '_ENGINES_fqdn',
 'mail_from_address' => 'owncloud',
 'mail_smtpdebug' => false,
 'mail_smtpmode' => 'sendmail',
-'mail_smtphost' => '127.0.0.1',
+'mail_smtphost' => 'smtp.engines.internal',
 'mail_smtpport' => 25,
 'mail_smtptimeout' => 10,
 'mail_smtpsecure' => '',
@@ -69,7 +69,7 @@ $CONFIG = array(
  * The default timezone for logfiles is UTC. You may change this; see
  * http://php.net/manual/en/timezones.php
  */
-'logtimezone' => 'Europe/Berlin',
+'logtimezone' => '_ENGINES_TZ',
 
 /**
  * Append all database queries and parameters to the log file. Use this only for
