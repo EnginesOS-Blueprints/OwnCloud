@@ -105,7 +105,7 @@ $CONFIG = array(
 'preview_max_x' => null,
 'preview_max_y' => null,
 'preview_max_scale_factor' => 10,
-'preview_libreoffice_path' =>  '/usr/bin/libreoffice',
+'preview_libreoffice_path' =>  '/usr/lib/soffice/bin/soffice',
 /**
  * Use this if LibreOffice/OpenOffice requires additional arguments.
  */
