@@ -126,13 +126,7 @@ $CONFIG = array(
 'theme' => '',
 'xframe_restriction' => true,
 'cipher' => 'AES-256-CFB',
-'memcached_servers' => array(
-        // hostname, port and optional weight. Also see:
-        // http://www.php.net/manual/en/memcached.addservers.php
-        // http://www.php.net/manual/en/memcached.addserver.php
-        array('localhost', 11211),
-        //array('other.host.local', 11211),
-),
+
 'cache_path' => '',
 'quota_include_external_storage' => false,
 'filesystem_check_changes' => 1,
