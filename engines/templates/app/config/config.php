@@ -33,7 +33,7 @@ $CONFIG = array(
 'mail_domain' => '_ENGINES_fqdn',
 'mail_from_address' => 'owncloud',
 'mail_smtpdebug' => false,
-'mail_smtpmode' => 'sendmail',
+'mail_smtpmode' => 'smtp',
 'mail_smtphost' => 'smtp.engines.internal',
 'mail_smtpport' => 25,
 'mail_smtptimeout' => 10,
@@ -70,7 +70,7 @@ $CONFIG = array(
  * http://php.net/manual/en/timezones.php
  */
 'logtimezone' => '_ENGINES_TZ',
-
+          
 /**
  * Append all database queries and parameters to the log file. Use this only for
  * debugging, as your logfile will become huge.
@@ -105,7 +105,7 @@ $CONFIG = array(
 'preview_max_x' => null,
 'preview_max_y' => null,
 'preview_max_scale_factor' => 10,
-'preview_libreoffice_path' =>  '/usr/lib/soffice/bin/soffice',
+'preview_libreoffice_path' =>  '/usr/lib/libreoffice/program/soffice',
 /**
  * Use this if LibreOffice/OpenOffice requires additional arguments.
  */
