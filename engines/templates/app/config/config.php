@@ -55,7 +55,7 @@ $CONFIG = array(
 
 
 'trashbin_auto_expire' => true,
-'appcodechecker' => true,
+'appcodechecker' => false,
 'updatechecker' => true,
 'has_internet_connection' => true,
 'check_for_working_webdav' => true,
